@@ -1575,5 +1575,16 @@ sc_online_i(1741118,"ffffff","ffffff");
 </script>
 </center>
 <!-- END: Powered by Supercounters.com -->
+<script>
+document.getElementById("go").addEventListener("click", function() {
+    document.getElementById("intro").style.display = "none";
+    document.getElementById("loader").style.display = "block";
+
+    setTimeout(function() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("info").style.display = "block";
+    }, 3000);
+});
+</script>
 </body>
 </html>
